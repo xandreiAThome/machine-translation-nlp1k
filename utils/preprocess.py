@@ -4,23 +4,21 @@ import pandas as pd
 from pathlib import Path
 
 def clean_string(input_string):
-    """Remove non-alphabetic characters except whitespace and convert to lowercase."""
     cleaned = re.sub(r"[^\p{L}\s]", "", input_string.strip().lower())
     return cleaned
 
 def tokenize_text(text):
-    """Tokenize text using NLTK word_tokenize. Returns empty list for missing verses."""
     if text is None or text.strip() == "" or text.lower() == "<no verse>":
         return []
     
     try:
         tokens = nltk.word_tokenize(text)
         return tokens
-    except LookupError:
-        # Fallback to simple whitespace tokenization if punkt not available
-        return text.split()
+    except Exception as e:
+        print(f"Tokenization error: {e}")
+        return []
 
-def preprocess_parallel_tsv(tsv_file, source_col, target_col, output_dir="data/aligned", prefix=""):
+def preprocess_parallel_tsv(tsv_file, source_col, target_col):
     # Read TSV file
     df = pd.read_csv(tsv_file, sep='\t')
     
