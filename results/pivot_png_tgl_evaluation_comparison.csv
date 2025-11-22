@@ -1,0 +1,3 @@
+Dataset,Pipeline,Corpus BLEU,Mean Sentence BLEU
+Validation Set (png-tgl.tsv),Pangasinan → Bikolano → Tagalog,9.434988429862958,9.621432940386821
+Bible (Pangasinan-Tagalog),Pangasinan → Bikolano → Tagalog,33.16184044005875,31.864214448290326

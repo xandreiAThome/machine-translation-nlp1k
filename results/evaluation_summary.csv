@@ -1,0 +1,2 @@
+Pipeline,Test Pairs,Corpus BLEU,Mean Sentence BLEU,Median Sentence BLEU,Min BLEU,Max BLEU,Stdev,BLEU-1,BLEU-2,BLEU-3,BLEU-4,Brevity Penalty
+Pangasinan → Bikolano → Tagalog,39,9.4350,9.6214,8.1309,0.0000,40.7322,9.9215,39.4118,17.2757,6.4885,1.7937,1.0000

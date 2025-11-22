@@ -1,0 +1,2 @@
+Pipeline,Test Pairs,Corpus BLEU,Mean Sentence BLEU,Median Sentence BLEU,Min BLEU,Max BLEU,Stdev,BLEU-1,BLEU-2,BLEU-3,BLEU-4,Brevity Penalty
+Direct: Yami → Tagalog,20,2.3511,5.8927,4.7134,2.4427,14.4737,3.1114,25.8555,5.3498,0.8969,0.2463,1.0000

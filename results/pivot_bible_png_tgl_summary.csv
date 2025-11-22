@@ -1,0 +1,2 @@
+Dataset,Pipeline,Test Verses,Corpus BLEU,Mean Sentence BLEU,Median Sentence BLEU,Min BLEU,Max BLEU,Stdev,BLEU-1,BLEU-2,BLEU-3,BLEU-4,Brevity Penalty
+Bible (Pangasinan-Tagalog),Pangasinan → Bikolano → Tagalog,200,33.1618,31.8642,25.9945,0.0000,100.0000,23.6355,66.2321,42.3979,29.4461,21.6720,0.9064

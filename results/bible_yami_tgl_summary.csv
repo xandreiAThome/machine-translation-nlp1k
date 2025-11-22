@@ -1,0 +1,2 @@
+Pipeline,Test Pairs,Corpus BLEU,Mean Sentence BLEU,Median Sentence BLEU,Min BLEU,Max BLEU,Stdev,BLEU-1,BLEU-2,BLEU-3,BLEU-4,Brevity Penalty
+Direct: Yami → Tagalog (Bible Dataset),200,32.1611,29.3976,24.1858,1.9872,100.0000,22.1307,62.0690,38.7779,27.4260,19.7318,0.9520
